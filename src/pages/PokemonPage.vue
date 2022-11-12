@@ -2,7 +2,6 @@
   <h1> Who's that Pokemon? </h1>
   <PokemonPicture/>
   <PokemonOptions/>
-  <!--  TODO: Options -->
 </template>
 <script>
 
