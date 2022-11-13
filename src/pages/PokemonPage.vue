@@ -14,7 +14,7 @@
         @user-selection="checkAnswer($event)"
     />
 
-    <div v-if="showAnswer" class="fade-in" id="container">
+    <div v-if="showAnswer" class="fade-in" id="result-container">
       <h2> {{ message }}</h2>
 
       <button @click="newGame">
@@ -79,3 +79,11 @@ export default {
 }
 
 </script>
+
+<style>
+
+#result-container {
+  padding-left: 40px;
+}
+
+</style>
